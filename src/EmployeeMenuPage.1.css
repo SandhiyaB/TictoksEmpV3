@@ -1,0 +1,923 @@
+
+#tableOverflow{
+	overflow-x:auto;
+	overflow-y: auto; 
+}
+
+#titleheader {
+    fontWeight: 600;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+
+
+#menulogoutbtn{
+
+
+    margin: -24px -2px 2px 2px;
+    padding: 10px 6px 13px 0px;
+
+
+}
+}
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1824px) {
+#menulogoutbtn{
+
+    margin: -7px 12px 2px 2px!important;
+    padding: 10px 6px 13px 0px!important;
+
+
+}
+
+}
+
+#checkInOut {
+    background-Color: white;
+    text-align: -webkit-center;
+    font-size: 17px;
+    padding: 50px 0px 50px 0;
+}
+
+#colcheckIn{
+    padding: 40px 0 40px 0px;
+    cursor: pointer;
+}
+
+#checkIn{
+    background-image: url("./image/CheckIn1.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 35px 40px 35px;
+    cursor: pointer;
+}
+#checkOut{
+    background-image: url("./image/CheckOut.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 35px 40px 35px;
+    cursor: pointer;
+}
+
+#Attendancecolstyle{
+    background-image: url("./image/attend.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+#Attendancecolstyle:hover{
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-image: url("./image/hattend.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+#Chartcolstyle{
+    background-image: url("./image/chart.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+#Chartcolstyle:hover{
+
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-image: url("./image/hchart.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+#Maintenancecolstyle{
+    background-image: url("./image/Maintence.png");
+    background-size: 100px 100px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+#Maintenancecolstyle:hover{
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-image: url("./image/hMaintence.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+#Reportcolstyle{
+    background-image: url("./image/report.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+#Reportcolstyle:hover{
+
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-image: url("./image/report.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+
+
+#AttendanceRegcolstyle{
+    background-image: url("./image/AttendanceReg.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    word-wrap: break-word;
+    
+
+}
+/*
+#AttendanceRegcolstyle:hover{
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-image: url("./image/AttendanceReg.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}*/
+#TaskMappingcolstyle{
+    background-image: url("./image/TaskMapping.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+/*#TaskMappingcolstyle:hover{
+
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-image: url("./image/TaskMapping.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    
+
+#AttendanceRegcolstyle{
+    background-image: url("./image/AttendanceReg.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 180px 0px 40px 6px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    background-position-x: 23px;
+    word-wrap: break-word;
+
+}
+
+#TaskMappingcolstyle{
+    background-image: url("./image/TaskMapping.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 0px 35px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    background-position-x: 32px;
+    word-wrap: break-word;
+}
+    }
+
+    
+        
+#Attendancecolstyle{
+    background-image: url("./image/attend.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+#Attendancecolstyle:hover{
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+    background-image: url("./image/hattend.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+#Chartcolstyle{
+    background-image: url("./image/chart.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+#Chartcolstyle:hover{
+
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+    background-image: url("./image/hchart.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+#Maintenancecolstyle{
+    background-image: url("./image/Maintence.png");
+    background-size: 100px 100px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+#Maintenancecolstyle:hover{
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+    background-image: url("./image/hMaintence.png");
+    background-size: 100px 100px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+#Reportcolstyle{
+    background-image: url("./image/report.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+#Reportcolstyle:hover{
+
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-image: url("./image/report.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 35px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+        #AttendanceRegcolstyle{
+            background-image: url("./image/AttendanceReg.png");
+            background-size: 80px 80px;
+            background-Color: #ffffff00;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 180px 0px 40px 6px;
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+            background-position-x: 128px;
+            word-wrap: break-word;
+        
+        }
+        /*#AttendanceRegcolstyle:hover{
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+        
+            background-image: url("./image/AttendanceReg.png");
+            background-size: 80px 80px;
+            background-Color: #ffffff00;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 180px 0px 40px 6px;
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+            background-position-x: 128px;
+            word-wrap: break-word;
+        }
+        */
+        #TaskMappingcolstyle{
+            background-image: url("./image/TaskMapping.png");
+            background-size: 80px 80px;
+            background-Color: #ffffff00;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 170px 0px 35px 10px;
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+            background-position-x: 60px;
+            word-wrap: break-word;
+        }
+        
+#TaskMappingcolstyle:hover{
+
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-image: url("./image/TaskMapping.png");
+            background-size: 80px 80px;
+            background-Color: #ffffff00;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 170px 0px 35px 10px;
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+            font-size: 30px;
+            background-position-x: 60px;
+            word-wrap: break-word;
+}
+
+    
+
+
+
+#ReportMenucolstyle {
+    background-Color: white;
+    padding: 60px 16px;
+    text-align: left;
+    font-size: 17px;
+    width: 50%;
+    height: 70px;
+    border-bottom-color: ;
+}
+
+/*#Dailycolstyle {
+    background-Color: white;
+    padding: 18px 18px;
+    padding-left: 55px;
+    text-align: left;
+    font-size: 17px;
+    border-bottom-color: ;
+    background-image: url("./image/Report1.jpg");
+    background-size: 67px 54px;
+    background-repeat: no-repeat;
+    color: black;
+    text-decoration: none;
+}
+
+#Dailycolstyle:hover {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: black;
+    text-decoration: none;
+    padding: 18px 18px;
+    padding-left: 55px;
+    text-align: left;
+    font-size: 17px;
+    border-bottom-color: ;
+    background-image: url("./image/Report1.jpg");
+    background-size: 67px 54px;
+    background-repeat: no-repeat;
+}
+*/
+
+#Dailycolstyle {
+  
+background-image: url("./image/Report1.jpg");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 45px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    
+}
+#Monthlycolstyle {
+  
+background-image: url("./image/PeriodReport.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:170px 8px 35px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    
+}
+
+#Periodcolstyle {
+  
+background-image: url("./image/PeriodReport1.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 45px 35px 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    
+}
+
+#Maincolstyle {
+  
+background-image: url("./image/PeriodReport1.png");
+    background-size: 80px 80px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px 8px 35px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    
+}
+
+/*#Monthlycolstyle {
+    background-Color: white;
+    padding: 18px 18px;
+    padding-left: 45px;
+    text-align: left;
+    font-size: 17px;
+    border-bottom-color: ;
+    background-image: url("./image/PeriodReport.png");
+    background-size: 58px 58px;
+    background-repeat: no-repeat;
+    color: black;
+    text-decoration: none;
+}
+
+#Monthlycolstyle:hover {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    color: black;
+    text-decoration: none;
+    padding: 18px 18px;
+    padding-left: 45px;
+    text-align: left;
+    font-size: 17px;
+    border-bottom-color: ;
+    background-image: url("./image/PeriodReport.png");
+    background-size: 58px 58px;
+    background-repeat: no-repeat;
+}
+
+#Periodcolstyle {
+    background-Color: white;
+    padding: 18px 18px;
+    margin-left: 15px;
+    padding-left: 62px;
+    text-align: left;
+    font-size: 17px;
+    border-bottom-color: ;
+    background-image: url("./image/PeriodReport1.png");
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    color: black;
+    text-decoration: none;
+}
+
+#Periodcolstyle:hover {
+    padding: 10px 14px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s; 
+    color: black;
+    text-decoration: none;
+    padding: 18px 18px;
+    margin-left: 15px;
+    padding-left: 62px;
+    text-align: left;
+    font-size: 17px;
+    border-bottom-color: ;
+    background-image: url("./image/PeriodReport1.png");
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+}
+
+*/ 
+.routing-container {
+    height: 100%;
+    width: 100%;
+}
+
+#mainpagebody {
+
+    width: 100%;
+}
+
+.mainpage-container {
+    height: auto;
+    width: 100%;
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    background-color: #00BCD4;
+}
+
+#rowid {
+    height: 100%;
+}
+
+.header.navbar-brand {
+    width: 55%;
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menubarid {
+    display: block!important;
+    background-color: #003333;
+}
+
+
+#neertitle {
+	 background-image: url("./image/tictock.png");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    width:40%;
+    color: black;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+    font-family: Arial;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#usernameidright {
+    height: 100%;
+    width: 100%;
+    margin: 0px !important;
+    display: flex;
+    align-items: center;
+    padding: 0px !important;
+    right: 0 !important;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    #menu1{
+    margin-Top:-73px;
+}
+    .open>.dropdown-menu {
+        display: grid;
+}
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1824px) {
+
+    .open>.dropdown-menu {
+    display: block;
+}
+    
+    #menu1{
+        margin-Top:0px;
+}
+}
+
+
+#logoheader{
+    background-image: url("./image/tictock.png");
+    background-size: 93px 43px;
+    padding: 0px 107px 0px 18px;
+    background-Color: #ffffff00;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.navbar.navbar-default{
+    background-Color: #ffffff00;
+
+
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1824px) {
+
+    #employeeidlabel{
+                
+                width: 250px!important;
+                
+            }
+           
+            #employeeId{
+                margin-left: 0px!important;
+                width: 300px!important;
+                margin-top: 0px!important;
+                margin-bottom: 10px!important;
+                
+           
+           
+           }
+        }
+
+        #EmployeeId {
+            width: 50%!important;
+            margin-left: 5%!important;
+        }
+        
+        #employeeidgroup {
+            display: inline-block!important;
+            width: 50%!important;
+            margin-left: 5%!important;
+        }
+        
+        
+        #Employeemenu {
+            background-color: powderblue;
+            color: Black;
+            padding: 10px 10px;
+        }
+        
+        
+        .react-confirm-alert-blur {
+            filter: url(#gaussian-blur);
+            filter: blur(2px);
+            -webkit-filter: blur(2px);
+        }
+        
+        .react-confirm-alert-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 99;
+            background: rgba(255, 255, 255, 0.9);
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            justify-content: center;
+            -ms-align-items: center;
+            align-items: center;
+            opacity: 0;
+            -webkit-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+            -moz-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+            -o-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+            animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+        }
+        
+        .react-confirm-alert {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 400px;
+            padding: 30px;
+            text-align: left;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 20px 75px rgba(0, 0, 0, 0.13);
+            color: #666;
+        }
+        
+        .react-confirm-alert-svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .react-confirm-alert>h1 {
+            margin-top: 0;
+            font-size: 30px;
+        }
+        
+        .react-confirm-alert>h3 {
+            margin: 0;
+            font-size: 16px;
+            color: red;
+        }
+        
+        .react-confirm-alert-button-group {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 20px;
+        }
+        
+        .react-confirm-alert-button-group>button {
+            outline: none;
+            background: #333;
+            border: none;
+            display: inline-block;
+            padding: 6px 18px;
+            color: #eee;
+            margin-right: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        
+        @-webkit-keyframes react-confirm-alert-fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @-moz-keyframes react-confirm-alert-fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @-o-keyframes react-confirm-alert-fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes react-confirm-alert-fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        

@@ -1,0 +1,363 @@
+html{
+  height:100%;
+  width:100%;
+  
+}
+
+
+
+body{
+  /* background-color:#4fc8ff!important; */
+  /* background:linear-gradient(to bottom right, #00BCD4, #3F51B5); */
+ /*  background:linear-gradient(linear, left top, right bottom, from(#f1f1f1), to(#9eacb8)); 
+  background:linear-gradient(to bottom right,#f1f1f1, #9eacb8);*/
+  /* background-image: url(/static/media/logbg2.abc95380.png); */
+  /* background: url("./image/logbg3.png")  center fixed;
+  
+   background: url("./image/doodlebg1.png")  center fixed; 
+  */
+   background-color:white;
+   background-size: cover;
+  background-repeat:  no-repeat;
+ 
+  height:100%;
+  width:100%;
+  /* background-image: url("./image/empbgimage6.png");*/
+
+    /* background-size:100% 400%; 
+    background-size: inherit;
+    background-repeat: no-repeat;*/
+  
+}
+
+#root{
+  height:100%;
+  width:100%;
+}
+#loginpagebg{
+  /* background-image: url("./image/CheckIn1.png"); */
+}  
+
+.loginpage{
+ /*  background-color: green; tictockwbg */
+  /*  background-image: url("./image/logbg3.png"); 
+   */
+    background-size: cover;
+  
+  /* background: linear-gradient(to right bottom, #9C27B0, rgba(237, 22, 22, 0.92)) #673AB7;  
+   */
+    margin:auto;
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+  
+  } 
+
+  .loginpage .login-container{
+    height:410px;
+    width:280px;
+        
+      /*//background-image: url("./image/.jpg");*/
+        background-size:100%;
+        background-repeat: no-repeat;
+        border-radius:15px; 
+  } 
+  #logbg{
+      background-color:#4bbd50; 
+   /* background: linear-gradient(to right bottom,#ee4158, #5a043c) #19abf1;
+ */
+        /*background: linear-gradient(to right bottom, #FFC107, #ce00ff) #03A9F4;
+         background-image: url("./image/tictockwbg1.png"); */
+        width: 250px!important;
+        background-size: cover;
+        border-radius: 18px;
+
+
+  }
+ 
+#imgtic
+  {
+    text-align: center;
+    margin: 0px 12px 5px;
+  }
+  #imgcont{
+    width: 40%;
+    border-radius: 50%;
+  }
+  #loginname{
+    margin-top: -21px
+  }
+
+  #forgetpwdID{
+
+    color: white;
+    font-family: Lucida Sans Unicode;
+    font-size: 17px;
+  }
+  #loginSubmitButton{
+    border-bottom-color: #630119;
+    text-align: center;
+    color: white;
+   
+    background-color: rgb(199, 14, 59);
+  }
+  #loginSubmitButton1{
+
+    text-align: center;
+  }
+  .container{
+    height:100%;
+    width:100%;
+    /* background-color:#32796D!imporant; */
+  }
+  
+  .loginpage .login-container .containerlogin{
+    height: 94%;
+    width: 100%;
+    margin: 0px auto !important;
+    padding: 0 !important;
+  }
+  .form-signin-heading.text-muted{
+    color:white;
+    /* padding-top:20px; */
+    
+  }
+  .btn.btn-link{
+    color:white;
+    font-size:18px;
+    font-weight:strong;
+    
+  }
+    .btn.btn-link:hover{
+    
+    color:#faffbd;
+    font-size:18px;
+    font-weight:strong;
+    text-decoration-style: none;
+    
+  }
+  .btn.btn-lg.btn-primary.btn-block{
+    background-color:#de6e31;
+  }
+  
+  .btn.btn-lg.btn-primary.btn-block:hover{
+    background-color:#ef6519;
+  }
+  
+  .btn 
+  {
+   outline:0;
+  }
+  .btn:focus
+  {
+   outline:0;
+   -webkit-outline:0;
+   -moz-outline:0;
+  }
+ /*   .fullscreen_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color:#002080; 
+    background-repeat:repeat;
+  background-image:
+  }  */
+  .form-signin {
+    max-width: 280px;
+    padding: 15px;
+    margin: 0 auto;
+      margin-top:-10px;
+  }
+  .form-signin .form-signin-heading, .form-signin {
+    margin-bottom: 0px;
+  color: white;
+  }
+  .form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .form-signin .form-control:focus {
+    z-index: 0;
+  }
+  .form-signin input[type="text"] {
+    margin-bottom: 20px;
+   /*  border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-color: #000; */
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 0px;
+   /*  border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-color: #000; */
+   
+  }
+  .form-signin-heading {
+    color: white;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+  }
+  .ui-timepicker-list{
+    display: block
+  }
+
+#logomenurow{
+ /*  padding: 5px 0px; */
+  background-color: #4aa64e;
+  
+  /* background-color:#374858;,#104e89,#22923c
+   */  margin-right: 0px;
+    padding-left: 15px;
+
+}
+#logomenuheader{  
+  margin-top: -14PX;
+  /*   width: 150%!important; */
+   /*  background-image: url("./image/tictokn40.png"); */
+  }
+
+
+  #logouticon{
+    width: 3vw;
+    padding-top: 10px;
+    padding-right: 0px;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 750px) {
+    #logomenuheader{  
+    /*   width: 150%!important; */
+     /*  background-image: url("./image/tictokn40.png"); */
+    }
+  
+  }
+  
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1824px) {
+     #logomenuheader{
+
+     /*  width: 30%!important; 
+      padding-top: 10px;*/
+     /*  background-image: url("./image/tictokn40.png"); */
+    } 
+    #logomenurow {
+      /* padding: 0px 0px; */
+      background-color: #4aa64e;
+      margin-right: 0px;
+      padding-left: 15px;
+  }
+  #logouticon {
+    width: 2vw;
+    padding-top: 22px;
+    padding-right: 0px;
+}
+  
+  }
+  @media only screen and (min-device-height: 320px) and (max-device-height: 375px) {
+    #logomenuheader{  
+    /*   width: 70%!important; */
+     /*  background-image: url("./image/tictokn40.png"); */
+    }
+  
+  }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 2845px) {
+  
+#footerh5{
+  font-size: 1.5vw!important;
+  font-family: "Lucida Sans Unicode";
+}
+
+#footerspan{
+  font-size: 1vw!important;
+}
+  }
+/*time picker
+  .ui_tpicker_millisec_label.ui_tpicker_unit_hide{
+display:none;
+
+  }
+ 
+
+  .ui_tpicker_microsec_label.ui_tpicker_unit_hide{
+    display:none;
+    
+      }
+
+  
+
+  .ui_tpicker_timezone_label.ui_tpicker_unit_hide{
+    display:none;
+    
+      }
+
+  .ui_tpicker_timezone.ui_tpicker_unit_hide{
+    display:none;
+    
+      }
+      .ui_tpicker_millisec_slider.ui_tpicker_unit_hide{
+        display:none;
+        
+          }
+
+          .ui_tpicker_microsec_slider.ui_tpicker_unit_hide{
+            display:none;
+            
+              }
+              
+
+              	<div class="row navbar " id="logomenurow">
+					<div className="col-sm-2 col-xs-2 align-middle navbar-brand">
+						<a to="/" id="" onClick={() => this.MainPageFunc()} >
+							<img id="logomenuheader" src={t4} alt="Logo" /></a>
+
+					</div>
+					<div className="col-sm-8 col-xs-8 align-middle navbar-nav" style={{ color: "white", fontFamily: "Lucida Sans Unicode", textTransform: "uppercase", textAlign: "center", fontSize: "4vw", paddingTop: "8px" }} >
+
+						<h6 class="align-middle" style={{ fontSize: "3.5vw" }} >{CryptoJS.AES.decrypt(localStorage.getItem('CompanyName'), "shinchanbaby").toString(CryptoJS.enc.Utf8)}</h6>
+					</div>
+					<div className="col-sm-2 col-xs-2 navbar ">
+						<a href="#" class="btn btn-md dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"
+
+							style={{
+								marginTop: "5px",
+								padding: "0px 2px 1px 2px",
+							}} >
+							<img id="logouticon" src={t5} alt="Logo" />
+
+							{/* <span class="glyphicon glyphicon-off"></span>*/
+				/* 		</a>
+
+						<ul id="menulogoutbtn" class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="menu1">
+							 style={{margin: "-24px 1px 2px 2px",padding:" 10px 6px 13px 0"}}
+							<li><a href="#" style={{ backgroundColor: "#677785", color: "white" }}><span class="glyphicon glyphicon-hand-right" onClick={() => this.HelpFunc()} style={{ float: "left", backgroundColor: "#677785" }}>Help</span></a></li>
+							<li className="divider"></li>
+							<li><a href="#" style={{ backgroundColor: "#677785", color: "white" }}><span class="glyphicon glyphicon-eye-close" onClick={() => this.ResetFunc()} style={{ float: "left", backgroundColor: "#677785" }} >ResetPassword</span></a></li>
+							<li className="divider"></li>
+							<li><a href="Import.xlsx" download={this.state.importFileName} onClick={() => this.ImportFunc()} style={{ backgroundColor: "#677785", color: "white" }}><span class="glyphicon glyphicon-download" style={{ float: "left", backgroundColor: "#677785" }}>Import</span></a></li>
+							<li className="divider"></li>
+							<li><a href="#" style={{ backgroundColor: "#677785", color: "white" }}><span class="glyphicon glyphicon-upload" onClick={() => this.ExportFunc()} style={{ float: "left", backgroundColor: "#677785" }}>Export</span></a></li>
+							<li className="divider"></li>
+							<li><a href="#" style={{ backgroundColor: "#677785", color: "white" }}><span class="glyphicon glyphicon-user" onClick={() => this.LogoutFunc()} style={{ float: "left", backgroundColor: "#677785" }}>LogOut</span></a></li>
+
+						</ul>
+					</div>
+
+				</div> */
+              
